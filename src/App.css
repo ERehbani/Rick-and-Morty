@@ -1,14 +1,9 @@
 .App {
    text-align: center;
    background-image: "https://www.xtrafondos.com/thumbs/1_9415.jpg";
-   display: flex;
 }
 
 * {
    background-repeat: no-repeat;
    background-size: cover;
-}
-
-input {
-   
 }
