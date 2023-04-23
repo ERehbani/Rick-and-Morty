@@ -1,0 +1,32 @@
+.form {
+    background-color: #77DD77;
+    width:600px;
+    padding:16px;
+    border-radius: 20px;
+    margin:auto;
+    margin-top: 70px;
+ }
+ 
+ .form-container {
+    display: inline;
+    width: 600px;
+    height: auto;
+ }
+ 
+ .form-image {
+   height: 120px;
+   margin: 20px;
+ }
+ 
+ .form button {
+    width: 70px;
+    height: 30px;
+    background-color: #AFD5F0;
+    border: 3px solid #78A2CC;
+    margin-top: 10px;
+ }
+ 
+ .form input {
+    height: 25px;
+    margin: 10px;
+ }

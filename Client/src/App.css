@@ -1,0 +1,23 @@
+.App {
+   text-align: center;
+}
+
+
+body {
+   background-image:url(../public/paisaje-de-rick-y-morty-9415_2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   font-family: Poppins, sans-serif;
+}
+
+button {
+   background-color: white;
+   color: black;
+}
+
+iframe {
+   border-radius: 12px;
+}
+
+
+
