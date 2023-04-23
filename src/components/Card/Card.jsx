@@ -37,9 +37,11 @@ function Card({id, name, species, gender, image, onClose, addFav, removeFav, myF
                <div className="card-img">
                   <img src={image} alt='' />
                </div>
-            <NavLink to={`/detail/${id}`} >
-               <h2 className="card-name">{name}</h2>
-            </NavLink>
+               <div className="card-name">
+                  <NavLink to={`/detail/${id}`} >
+                     <h2>{name}</h2>
+                  </NavLink>
+               </div>
             <div className="card-info"> 
                <h2>{gender}</h2>
                <h2>{species}</h2>

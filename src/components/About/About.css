@@ -1,9 +1,9 @@
 .about {
     background-color: white;
     border-radius: 23px;
-    height: 50vh;
-    width: 50rem;
-    margin: 25vh auto;
+    height: fit-content;
+    width: fit-content;
+    margin: 15vh auto;
  }
  
  .about-container {

@@ -3,6 +3,7 @@ import Aboutcss from './components/About/About.css';
 import Cardcss from './components/Card/Card.css';
 import Detailcss from './components/Detail/Detail.css';
 import Formcss from './components/Form/Form.css';
+import Navcss from './components/Nav/Nav.css';
 import Cards from './components/Cards/Cards.jsx';
 import Nav from './components/Nav/Nav';
 import About from './components/About/About'
