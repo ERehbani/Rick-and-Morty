@@ -9,110 +9,14 @@ body {
    font-family: Poppins, sans-serif;
 }
 
-.info {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.info h2{
-   padding: 10px;
-}
-
-.info-container {
-   display: flex;
-   align-items: center;
-   background-color: #fffff7;
-   border-radius: 30px;
-   -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.26);
-   -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.26);
-   box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.26);
-}
-
 button {
    background-color: white;
    color: black;
-}
-
-.info-image {
-   border-radius: 50%;
-   -webkit-box-shadow: 10px 10px 9px 3px rgba(0,0,0,0.39);
-   -moz-box-shadow: 10px 10px 9px 3px rgba(0,0,0,0.39);
-   box-shadow: 10px 10px 9px 3px rgba(0,0,0,0.39);
-}
-
-
-.info-description h2 {
-   color: #333333;
-   padding: 15px;
-   background: transparent;
-   text-align: start;
-   border-bottom: 1px solid #ddd;
-}
-
-.card-button {
-   height: 20px;
-}
-
-.card {
-   border: 1px solid black;
-   width: 350px;
-}
-
-.card-name {
-
-}
-
-.card-container {
-   background-color: white;
-
 }
 
 iframe {
    border-radius: 12px;
 }
 
-.about {
-   background-color: white;
-   border-radius: 23px;
-   height: 50vh;
-   width: 50rem;
-   margin: 25vh auto;
-}
 
-.about-container {
-   padding: 40px;
-   text-align: center;
-}
 
-.form {
-   background-color: #77DD77;
-   width:600px;
-   padding:16px;
-   border-radius: 20px;
-   margin:auto;
-   margin-top: 70px;
-}
-
-.form-container {
-   display: inline;
-   width: 600px;
-   height: auto;
-}
-
-.form-image {
-   height: 300px;
-}
-
-.form button {
-   width: 70px;
-   height: 30px;
-   background-color: #AFD5F0;
-   border: 3px solid #78A2CC;
-   margin-top: 10px;
-}
-
-.form input {
-   height: 25px;
-   margin: 10px;
-}

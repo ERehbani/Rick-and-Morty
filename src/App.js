@@ -1,9 +1,13 @@
 import './App.css';
+import Aboutcss from './components/About/About.css';
+import Cardcss from './components/Card/Card.css';
+import Detailcss from './components/Detail/Detail.css';
+import Formcss from './components/Form/Form.css';
 import Cards from './components/Cards/Cards.jsx';
 import Nav from './components/Nav/Nav';
 import About from './components/About/About'
 import Detail from './components/Detail/Detail'
-import Form from './components/Form/Form'
+import Form from './components/Form/Form.jsx'
 import Favorites from './components/Favorites/Favorites';
 import { useEffect, useState } from "react";
 import axios from 'axios';

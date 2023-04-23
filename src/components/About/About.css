@@ -1,0 +1,12 @@
+.about {
+    background-color: white;
+    border-radius: 23px;
+    height: 50vh;
+    width: 50rem;
+    margin: 25vh auto;
+ }
+ 
+ .about-container {
+    padding: 40px;
+    text-align: center;
+ }
