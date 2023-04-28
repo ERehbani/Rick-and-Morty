@@ -23,16 +23,19 @@ function App() {
    
    const [characters, setCharacters] = useState([]);
 
-   const onSearch = (id) => {
-      axios(`${URL_BASE}/${id}?key=${API_KEY}`)
-      .then(response => response.data)
-      .then((data) => {
+   const onSearch = async (id) => {
+      try {
+         const { data } = await axios(`http://localhost:3001/rickandmorty/login/${id}`)
+
          if (data.name) {
             setCharacters((oldChars) => [...oldChars, data]);
          } else {
-            window.alert('¡No hay personajes con este ID!');
+
          }
-      });
+      }
+      catch (error) {
+         alert('¡No hay personajes con este ID!');
+      }
    }
 
    const location = useLocation()
@@ -40,14 +43,21 @@ function App() {
    const [access, setAccess] = useState(false);
    const email = 'tu@example.com';
    const password = '123asd';
+   const URL = 'http://localhost:3001/rickandmorty/login';
 
-   const login = (userData) => {
-      if(userData.email === email && userData.password === password) {
-         setAccess(true);
-         navigate('/home');
+   const login = async (userData) => {
+      try {
+      const { email, password } = userData;
+      const { data } = await axios(URL + `?email=${email}&password=${password}`)
+      const { access } = data
+
+         setAccess(access);
+         access && navigate('/home');
+      }
+      catch (error) {
+         console.log(error.message)
       }
    }
-
    
    const handleLogOut = () => {
    setAccess(false);

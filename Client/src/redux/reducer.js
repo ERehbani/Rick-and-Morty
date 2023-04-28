@@ -8,16 +8,17 @@ import { ADD_FAV, REMOVE_FAV, FILTER, ORDER } from "./action-types"
     
     const reducer =(state=initialState, action)=>{
         switch(action.type){
-            case ADD_FAV:
-                return {
-                    ...state,
-                    myFavorites: [...state.allCharactersFav, action.payload],
-                    allCharactersFav: [...state.allCharactersFav, action.payload]
-                }
+            case 'ADD_FAV':
+                return { ...state,
+                        myFavorites: action.payload,
+                        allCharacters: action.payload 
+                    };
+
                 case REMOVE_FAV:
                     return {
                         ...state,
-                        myFavorites: state.myFavorites.filter((char => char.id !== action.payload))
+                        myFavorites: action.payload,
+                        allCharacters: action.payload 
                     }
                     // case ADD_CARD:
                     //     return {
